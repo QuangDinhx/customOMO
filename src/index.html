@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeJS Starter</title>
+</head>
+<body>
+    <button class="download" id="download" onclick="download()">Download</button>
+
+    <div id="background" class="background"></div>
+
+    <div class="attachment attachment-color" id="attachment-color" onclick="toggleColorPicker()">
+        <div class="attachment__button-content">
+          <div class="add-sign">
+            <div class="add-sign-color">
+              Color
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="wrap">
+        <div class="half">
+          <div class="colorPicker"></div>
+        </div>
+        <div class="half readout">
+          <span class="title">Selected Color:</span>
+          <div id="values"></div>
+          <input id="hexInput"></input>
+        </div>
+    </div>
+    <!-- <canvas id="c"></canvas> -->
+</body>
+</html>
